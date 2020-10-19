@@ -39,7 +39,7 @@ O Happy é uma aplicação que conecta pessoas à casas de acolhimento instituci
 Um aplicativo criado durante a 3ª Next Level Week, minicurso ministrado pela [Rocketseat](https://rocketseat.com.br), com o intuito de criar uma aplicação que facilite e gerencie visitas  à casas de acolhimento institucional, foi criado pensando em homenagear o dia das crianças (já que está sendo realizada na semana do dia das crianças) fazendo muitas crianças feliz com visitas. O nome já tem esse intuito "happy" feliz, com o nome "app" embutido (hAPPy), ou seja, app para trazer feliciade para muitas crianças. 
 <br /><br />
 <b>Funcionalidades da API: </b>
- - Cadastro de orfanatos;
+ - Cadastro de casas de acolhimento;
  - Agendamento;
  - Localização;
 
