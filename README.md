@@ -1,44 +1,110 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    <img alt="Happy" title="Happy" src="https://github.com/rocketseat-education/nlw-03-omnistack/blob/master/.github/logo.svg" />
+</h1>
 
-## Available Scripts
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Desenvolvimento</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
-In the project directory, you can run:
+<p align="center">
+ <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=15C3D6&labelColor=000000" alt="PRs welcome!" />
 
-### `yarn start`
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=15C3D6&labelColor=000000">
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<p align="center">
+  <img alt="Happy" src="https://github.com/rocketseat-education/nlw-03-omnistack/blob/master/.github/happy.png" width="100%">
+</p>
 
-### `yarn test`
+## 🚀 Tecnologias
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-### `yarn build`
+- [Node.js](https://nodejs.org/en/)
+- [React](https://reactjs.org)
+- [React Native](https://facebook.github.io/react-native/)
+- [Expo](https://expo.io/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 💻 Projeto
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+O Happy é uma aplicação que conecta pessoas à casas de acolhimento institucional para fazer o dia de muitas crianças mais feliz 💜
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Um aplicativo criado durante a 3ª Next Level Week, minicurso ministrado pela [Rocketseat](https://rocketseat.com.br), com o intuito de criar uma aplicação que facilite e gerencie visitas  à casas de acolhimento institucional, foi criado pensando em homenagear o dia das crianças (já que está sendo realizada na semana do dia das crianças) fazendo muitas crianças feliz com visitas. O nome já tem esse intuito "happy" feliz, com o nome "app" embutido (hAPPy), ou seja, app para trazer feliciade para muitas crianças. 
+<br /><br />
+<b>Funcionalidades da API: </b>
+ - Cadastro de orfanatos;
+ - Agendamento;
+ - Localização;
 
-### `yarn eject`
+## 🔖 Layout
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Nos links abaixo você encontra o layout do projeto web e também do mobile. Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para acessá-lo.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Layout Web](https://www.figma.com/file/mDEbnoojksG4w8sOxmudh3/Happy-Web)
+- [Layout Mobile](https://www.figma.com/file/X27FfVxAgy9f5IFa7ONlph/Happy-Mobile)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## :information_source: Desenvolvimento
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### :computer_mouse: Server: 
 
-## Learn More
+```bash
+# Clone o Repositório
+$  git clone https://github.com/pallomagualter/serverHappy.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Acesse o diretório do backend, e instale suas dependências
+$ cd server
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#Instale as dependências
+$ yarn 
+
+# Rode o backend 
+$ yarn start 
+```
+
+### :computer: Web: 
+
+```bash
+# Clone o Repositório
+$  git clone https://github.com/pallomagualter/webHappy.git
+
+#Acesse o diretório web
+$ cd web
+
+#Instale as dependências
+$ yarn 
+
+#Inicie a aplicação 
+$ yarn start
+```
+
+
+### :iphone: Mobile:
+
+```bash
+# Clone o Repositório
+$  git clone https://github.com/pallomagualter/mobileHappy.git
+
+#Acesse o diretório mobile
+$ cd mobile
+
+#Instale as dependências
+$ yarn 
+
+# Inicie a aplicação
+$ yarn start
+```
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+---
+
+Feito com 💜 by Palloma Gualter :wave:
