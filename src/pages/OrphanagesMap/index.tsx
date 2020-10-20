@@ -1,7 +1,10 @@
 import React from 'react';
-import { } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { FiPlus } from 'react-icons/fi';
 
 import mapMarkerImg from '../../images/map-marker.svg';
+
+import './styles.css';
 
 function OrphanagesMap() {
     return (
@@ -19,6 +22,12 @@ function OrphanagesMap() {
                     <span>Piauí</span>
                 </footer>
             </aside>
+
+            <div className="map"></div>
+
+            <Link to="/" className="create-orphanage" >
+                <FiPlus size={32} color="#fff" />
+            </Link>
         </div>
     );
 }
