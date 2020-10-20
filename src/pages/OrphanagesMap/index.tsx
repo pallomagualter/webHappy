@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FiPlus } from 'react-icons/fi';
+import { Map } from 'react-leaflet';
 
 import mapMarkerImg from '../../images/map-marker.svg';
 
