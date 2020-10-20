@@ -9,8 +9,7 @@ function App() {
   return (
     <div id="page-landing">
       <div className="content-wrapper">
-        <img src={logoImg} alt="Happy"/>
-      </div>
+        <img src={logoImg} alt="Happy" />
 
       <main>
         <h1>Leve felicidade para o mundo</h1>
@@ -22,10 +21,11 @@ function App() {
         <span>Piauí</span>
       </div>
 
-      <a href="" className="enter-app"
-        >
 
+      <a href="" className="enter-app">
+        >
       </a>
+      </div>
     </div>
   );
 }
