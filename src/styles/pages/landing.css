@@ -22,7 +22,7 @@
     flex-direction: column;
     justify-content: space-between;
   
-    background: url('../../assets/images/landing-ilustra.svg') no-repeat 80% center;
+    background: url('../../assets/images/landing-ilustra.svg') no-repeat 80% center; /* passando no-repeat position eixos x y */
   }
 
   #page-landing .content-wrapper main {
